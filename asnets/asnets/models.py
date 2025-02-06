@@ -330,7 +330,7 @@ class PropNetwork(tf.keras.layers.Layer):
                  dtype=None,
                  dynamic: bool = False,
                  **kwargs):
-        super().__init__(trainable, name, dtype, dynamic, **kwargs)
+        super().__init__(trainable=trainable, name=name, dtype=dtype, dynamic=dynamic, **kwargs)
 
         self._weight_manager = weight_manager
         self._prob_meta = problem_meta
