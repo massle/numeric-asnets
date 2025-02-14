@@ -10,7 +10,7 @@ import numpy as np
 import tensorflow as tf
 from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple
 
-NONLINEARITY = 'elu'
+NONLINEARITY = 'relu'
 
 WeightDict = Dict[Any, Tuple[tf.Variable, tf.Variable]]
 
